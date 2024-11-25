@@ -1,0 +1,92 @@
+.signup-container {
+    background-color: #1a202c;
+    border-radius: 8px;
+    padding: 2rem; /* Reduce el padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Utiliza flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe al menos la altura de la ventana */
+  }
+    .words{
+      color: white;
+    }
+    .signup-form-container {
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      position: center;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+    
+    .signup-form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #4b5563;
+    }
+    
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+    }
+    
+    input:focus {
+      outline: none;
+      border-color: #4f46e5;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    }
+    
+    .submit-button {
+      background-color: #edfc24;
+      color: rgb(0, 0, 0);
+      padding: 0.75rem;
+      border: none;
+      border-radius: 0.25rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .submit-button:hover {
+      background-color: #17c900;
+    }
+    
+    .login-button {
+      display: inline-block; /* Para que se comporte como un bloque */
+      background-color: #1eff00; /* Color de fondo del botón */
+      color: black; /* Color del texto */
+      padding: 0.75rem 1.5rem; /* Espaciado interno */
+      border: none; /* Sin borde */
+      border-radius: 4px; /* Bordes redondeados */
+      font-size: 1rem; /* Tamaño de fuente */
+      text-align: center; /* Centra el texto */
+      text-decoration: none; /* Sin subrayado */
+      cursor: pointer; /* Cambia el cursor a pointer */
+      transition: background-color 0.2s; /* Transición para el hover */
+    }
+    
+    .login-button:hover {
+      background-color: #17c900; /* Color de fondo al pasar el ratón */
+    }
+    

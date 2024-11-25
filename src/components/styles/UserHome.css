@@ -1,0 +1,93 @@
+.user-home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ff1e1e 0%, #000000 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.upload-section input,
+.upload-section button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px; /* Limita el ancho */
+  font-size: 1rem;
+  
+  border-radius: 5px;
+}
+
+.upload-section button {
+  background-color: #e946ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.upload-section button:hover {
+  background-color: #5b027e;
+  transform: scale(1.05); /* Animación al pasar el ratón */
+}
+
+.videos-section {
+  margin-top: 30px;
+}
+
+.videos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Tarjetas adaptables */
+  gap: 20px;
+  padding: 10px;
+}
+
+.video-card {
+  text-align: center;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-card video {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.video-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.feed-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #979797;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.feed-button:hover {
+  background-color: #5b027e;
+  transform: scale(1.05);
+}

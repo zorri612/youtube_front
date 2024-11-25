@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #ff1e1e 0%, #000000 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #1a202c;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.login-form-container {
+  background-color: #1a202c;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.inisesion {
+  text-align: center;
+  color: #ffff;
+  margin-bottom: 1.5rem;
+}
+
+.correo{
+  color: #ffff
+}
+.contra{
+  color: #ffff
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  color: #ffff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4b5563;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+
+
+.submit-button:hover {
+  background-color: #17c900;
+}
+
+.signup-link {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-link a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+.form-title_gcl {
+  color: #ff6262;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.email-address{
+  color: #ffff
+}
+.password{
+  color: #ffff
+}
+.signup-button {
+  display: inline-block; /* Para que se comporte como un bloque */
+  background-color: #ffffff; /* Color de fondo del botón */
+  color: black; /* Color del texto */
+  padding: 0.75rem ; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 0.22rem; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de fuente */
+  text-align: center; /* Centra el texto */
+  text-decoration: none; /* Sin subrayado */
+  cursor: pointer; /* Cambia el cursor a pointer */
+  transition: background-color 0.2s; /* Transición para el hover */
+}
+.submit-button {
+  background-color: #1eff00;
+  color: black;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.signup-button:hover {
+  background-color: #c90000; /* Color de fondo al pasar el ratón */
+}

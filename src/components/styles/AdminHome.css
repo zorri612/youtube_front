@@ -1,0 +1,117 @@
+.admin-home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #1a202c; /* Color de fondo del contenedor */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.admin-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 20px;
+  color: #1eff00;
+  margin-bottom: 15px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button-admin {
+  background-color: #219797;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.winners-section {
+  margin-bottom: 30px;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: #2d3748; /* Color de fondo para la tabla */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 10px; /* Espacio interno */
+}
+
+.winners-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.winners-table th,
+.winners-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.winners-table th {
+  background-color: #1a202c; /* Fondo oscuro para el encabezado */
+  font-weight: bold;
+  color: #ffffff; /* Texto blanco para el encabezado */
+}
+
+.winners-table tr:nth-child(even) {
+  background-color: #4a5568; /* Color de fondo más oscuro para filas pares */
+  color: #ffffff; /* Texto blanco para filas pares */
+}
+
+.winners-table tr:nth-child(odd) {
+  background-color: #2d3748; /* Color de fondo más oscuro para filas impares */
+  color: #ffffff; /* Texto blanco para filas impares */
+}
+
+.winners-table tr:hover {
+  background-color: #3b3f47; /* Color de fondo del hover */
+  color: #ffffff; /* Texto blanco en hover */
+}
+
+@media (max-width: 768px) {
+  .admin-home {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  h2 {
+      font-size: 18px;
+  }
+
+  .winners-table th,
+  .winners-table td {
+      padding: 8px;
+      font-size: 14px;
+  }
+}
