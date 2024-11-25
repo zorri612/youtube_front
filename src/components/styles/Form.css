@@ -24,7 +24,6 @@ body {
   background-color: #7c0101;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 4px 6px rgb(102, 0, 0);
   position: relative;
 }
 
@@ -91,7 +90,7 @@ input:focus {
   text-decoration: underline;
 }
 .form-title_gcl {
-  color: #ff6262;
+  color: white;
   font-size: 2rem;
   margin-bottom: 20px;
   text-align: center;

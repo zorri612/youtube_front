@@ -81,7 +81,7 @@ body {
   .back-button {
     display: block;
     margin: 20px auto;
-    background-color: #979797;
+    background-color: #7c0101;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -92,7 +92,7 @@ body {
   }
   
   .back-button:hover {
-    background-color: #5b027e;
+    background-color: #7c010180;
     transform: scale(1.05);
   }
   
