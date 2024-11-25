@@ -4,7 +4,7 @@ body {
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(135deg, #ff3333 0%, #000000 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #ff4040 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
