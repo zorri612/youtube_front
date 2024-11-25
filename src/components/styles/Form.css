@@ -16,7 +16,7 @@ body {
   background-color: #1a202c;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgb(102, 0, 0);
   position: relative;
 }
 
@@ -24,7 +24,7 @@ body {
   background-color: #1a202c;
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgb(102, 0, 0);
   position: relative;
 }
 
@@ -128,4 +128,5 @@ input:focus {
 }
 .signup-button:hover {
   background-color: #c90000; /* Color de fondo al pasar el ratón */
+  color: white;
 }
